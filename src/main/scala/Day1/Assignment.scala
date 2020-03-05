@@ -4,3 +4,4 @@ object Assignment extends App{
   val Hello= "Hello World!"
 print(Hello)
 }
+
