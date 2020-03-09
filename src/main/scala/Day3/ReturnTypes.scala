@@ -3,9 +3,9 @@ package Day3
 class Word(var name: String)
 
 object ReturnTypes extends App{
-def returnWordType() : Unit = {
+def returnWordType() : String = {
   def word = new Word("World!")
-  println("Hello" + word.name)
+  "Hello" + word.name
 }
   returnWordType()
 }
